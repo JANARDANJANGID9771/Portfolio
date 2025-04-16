@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Skills - Full Stack Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #02eeff, #040625);
+      /* background-color: #f4f6f9; */
+      padding: 40px 20px;
+    }
+
+    .skills-section {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    }
+
+    .skills-section h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.8em;
+      color: #2c3e50;
+    }
+
+    .category {
+      margin-bottom: 30px;
+    }
+
+    .category h2 {
+      font-size: 1.6em;
+      margin-bottom: 15px;
+      color: #34495e;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-card {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: bold;
+      color: #2c3e50;
+      transition: 0.3s;
+    }
+
+    .skill-card:hover {
+      background: #3498db;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 600px) {
+      .skills-section {
+        padding: 20px;
+      }
+
+      .skills-section h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="skills-section">
+    <h1>Skills</h1>
+
+    <!--  Language -->
+    <div class="category">
+      <h2>Language</h2>
+      <div class="skills-grid">
+        <div class="skill-card"> C</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card"> Python</div>
+        <div class=" skill-card">DSA with c,c++</div>
+      
+      </div>
+    </div>
+    <!-- Frontend Skills -->
+    <div class="category">
+      <h2>Frontend</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React.js</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">Tailwind CSS</div>
+        <div class="skill-card">React</div>
+      </div>
+    </div>
+
+    <!-- Backend Skills -->
+    <div class="category">
+      <h2>Backend</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">Express.js</div>
+        <div class="skill-card">Python</div>
+        <!-- <div class="skill-card">Django</div> -->
+        <!-- <div class="skill-card">REST APIs</div> -->
+      </div>
+    </div>
+
+    <!-- Database Skills -->
+    <div class="category">
+      <h2>Database</h2>
+      <div class="skills-grid">
+        <div class="skill-card">MySQL</div>
+        <!-- <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Firebase</div> -->
+      </div>
+    </div>
+
+    <!-- Tools & Others -->
+    <div class="category">
+      <h2>Tools & Platforms</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Git</div>
+        <div class="skill-card">GitHub</div>
+        <div class="skill-card">VS Code</div>
+        <!-- <div class="skill-card">Postman</div>
+        <div class="skill-card">Netlify</div>
+        <div class="skill-card">Vercel</div> -->
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
